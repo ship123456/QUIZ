@@ -1,0 +1,38 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+  }
+  
+  @media (min-width: 200px) {
+    h5 {
+      position: absolute;
+      top: 15px;
+      left: 410px;
+      color: red;
+    }
+  }
+  .btn {
+    float: right;
+    width: 80px;
+    height: 50px;
+  }
+  .sub {
+    margin-top: 10px;
+    background-color: yellow;
+  }
+  .sidebyside {
+    display: flex;
+    justify-content: space-around;
+  }
+  li {
+    list-style-type: none;
+    padding: 3px;
+  }
+  .disable {
+    color: red;
+  }
+  .able {
+    color: black;
+  }
+  
